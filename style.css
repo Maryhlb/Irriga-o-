@@ -19,7 +19,7 @@ body {
     border-radius: 0px 600px 700px 0px;
     padding-left: 0px;
     padding-right: 0%;
-    border: 20px double #ffd4dc;
+    border-right: 40px solid #B44D57;
     
     
 }
@@ -48,14 +48,10 @@ body {
 }    
 
 
-.texto3 {
-    font-family: 'Georgia', serif;
-    color: #33475B;
-    font-size: 20px;
-    margin-top: 290px;
-    padding-left: 600px;
-    width: 20em;
-}
+
+   
+    
+
 
 .arrows {
     display: flex;
@@ -82,7 +78,14 @@ body {
     position: absolute;
     top: 1000px;
     left: 60px;
+    font-family: 'Georgia', serif;
+            color: #33475B;
+            font-size: 20px;
+            width: 22em;
+            padding: 5px;
+            text-align: center;
    }
+   
 
    
    .rectangle2 {
@@ -92,8 +95,15 @@ body {
     border-radius: 57px;
     position: absolute;
     top: 1000px;
-    left: 550px;
+    left: 570px;
+    font-family: 'Georgia', serif;
+            color: #33475B;
+            font-size: 20px;
+            width: 22em;
+            padding: 5px;
+            text-align: center;
    }
+   
 
    .rectangle3 {
     width: 450px;
@@ -102,8 +112,17 @@ body {
     border-radius: 57px;
     position: absolute;
     top: 1000px;
-    left: 1050px;
-   }
+    left: 1100px;
+
+    font-family: 'Georgia', serif;
+    color: #33475B;
+    font-size: 20px;
+    width: 22em;
+    padding: 5px;
+    text-align: center;
+}
+   
+   
 
    .Circulo1 {
     width: 40px;
@@ -113,6 +132,8 @@ body {
     position: absolute;
     top: 200px;
     left: 680px;
+           
+           
    }
 
    .Circulo2 {
@@ -123,6 +144,7 @@ body {
     position: absolute;
     top: 240px;
     left: 640px;
+           
    }
 
    .Circulo3 {
@@ -135,4 +157,53 @@ body {
     left: 660px;
    }
 
+   .Circulo4 {
+    width: 850px;
+    height: 30px;
+    background: linear-gradient(120deg, #B44D57, #B44D57);
+    border-radius: 57px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    border-top-left-radius: 200px 100px; /* Raio da curva para o canto superior esquerdo */
+     border-top-right-radius: 50px 50px; /* Raio da curva para o canto superior direito */
+    border-bottom-left-radius: 100px 50px; /* Raio da curva para o canto inferior esquerdo */
+     border-bottom-right-radius: 200px 100px; /* Raio da curva para o canto inferior direito */
+    }
 
+
+    
+    .Circulo5 {
+        width: 850px;
+        height: 30px;
+        background: linear-gradient(120deg, #B44D57, #B44D57);
+        border-radius: 57px;
+        position: absolute;
+        top: 100px;
+        left: 600px;
+        border-top-left-radius: 200px 100px; /* Raio da curva para o canto superior esquerdo */
+         border-top-right-radius: 50px 50px; /* Raio da curva para o canto superior direito */
+        border-bottom-left-radius: 100px 50px; /* Raio da curva para o canto inferior esquerdo */
+         border-bottom-right-radius: 200px 100px; /* Raio da curva para o canto inferior direito */
+        }
+        
+   
+
+        .Circulo6 {
+            width: 450px;
+            height: 30px;
+            background: linear-gradient(120deg, #B44D57, #B44D57);
+            border-radius: 57px;
+            top: 850px;
+            left: 1120px;
+            position: absolute;
+            font-family: 'Georgia', serif;
+            color: #33475B;
+            font-size: 20px;
+            width: 22em;
+            padding: 5px;
+            text-align: center;
+
+    width: 20em;
+        
+        }
