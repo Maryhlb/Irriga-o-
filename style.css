@@ -78,12 +78,14 @@ body {
     position: absolute;
     top: 1000px;
     left: 60px;
+    position: absolute;
     font-family: 'Georgia', serif;
-            color: #33475B;
-            font-size: 20px;
-            width: 22em;
-            padding: 5px;
-            text-align: center;
+    color: #33475B;
+    font-size: 20px;
+    width: 22em;
+    padding: 5px;
+    text-align: center;
+            
    }
    
 
